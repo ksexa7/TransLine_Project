@@ -18,5 +18,8 @@ namespace TransLine
             // Базовая цена за кг (например, 50 рублей)
             return Weight * 50;
         }
-    }
+        public void PrintInfo()
+        {
+            Console.WriteLine($"Клиент: {ClientName}, Вес: {Weight} кг");
+        }
 }
